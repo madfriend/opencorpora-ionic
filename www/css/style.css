@@ -1,0 +1,160 @@
+* {
+    font-family: Roboto, sans-serif !important;
+}
+
+.landing {
+    background-color: #296ad4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 1px gray;
+    padding: 3rem;
+    font-family: "Open Sans";
+}
+
+.head .logo {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    font-weight: 800;
+}
+
+.landing .form-container {
+    width: 100%;
+}
+
+
+.landing .item {
+    background-color: transparent;
+    border-width: 0;
+}
+
+.landing .input-label {
+    color: white;
+}
+
+.landing .item-input {
+    border-bottom-width: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.landing input {
+    color: white;
+}
+
+.landing ::-moz-placeholder { // Firefox 19+
+    color: white !important;
+}
+.landing :-ms-input-placeholder {
+    color: white !important;
+}
+.landing ::-webkit-input-placeholder {
+    color: white !important;
+}
+
+.landing .list {
+    padding: 0px 20px;
+}
+
+.landing .no-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.landing .top-padding {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.landing .no-padding button {
+    margin-top: 0px;
+}
+
+.item-pool {
+    padding-left: 48px;
+}
+
+.pool-complexity {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-width: 0px;
+    position: absolute;
+    top: 24px;
+    left: 12px;
+}
+
+.pool-complexity-1 {
+    background-image: url("../img/icon_star_green.png");
+}
+
+.pool-complexity-2 {
+    background-image: url("../img/icon_star_yellow.png");
+}
+
+.pool-complexity-3 {
+    background-image: url("../img/icon_star_orange.png");
+}
+
+.pool-complexity-4 {
+    background-image: url("../img/icon_star_red.png");
+}
+
+.bar-footer .button-block {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ion-modal-view h1 {
+    font-size: 18px;
+}
+
+ion-modal-view h2 {
+    font-size: 16px;
+}
+
+ion-modal-view h3 {
+    font-size: 14px;
+}
+
+ion-modal-view h1:first-child {
+    margin-top: 10px;
+}
+
+ion-modal-view ion-content {
+    padding: 10px;
+}
+
+ion-modal-view ul {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+ion-modal-view ul li:before {
+    content: "\2013 ";
+}
+
+ion-content .slider {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ion-content .slider-pager {
+    bottom: 0px;
+}
+
+ion-view ion-content .padding-wrap {
+    padding: 10px;
+}

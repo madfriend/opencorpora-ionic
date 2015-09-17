@@ -1,0 +1,31 @@
+<ion-view view-title="Вход" name="login-view">
+  <ion-content class="landing" scroll="false">
+    <div class="head">
+      <div class="logo">OpenCorpora</div>
+      <p class="logo-desc">Открытый корпус русского языка</p>
+    </div>
+    <div class="form-container">
+      <form ng-submit="doLogin()">
+        <div class="list">
+          <label class="item item-input">
+            <!--span class="input-label">Логин</span-->
+            <input type="text" ng-model="loginData.username" placeholder="Логин">
+          </label>
+          <label class="item item-input">
+            <!--span class="input-label">Пароль</span-->
+            <input type="password" ng-model="loginData.password" placeholder="Пароль">
+          </label>
+          <label class="item top-padding">
+            <button class="button button-block button-light button-outline" type="submit">Войти</button>
+          </label>
+          <label class="item no-padding">
+            <div class="button-bar">
+              <button class="button button-block button-positive" type="vk">VK</button>
+              <button class="button button-block button-positive" type="fb">Facebook</button>
+            </div>
+          </label>
+        </div>
+      </form>
+    </div>
+  </ion-content>
+</ion-view>

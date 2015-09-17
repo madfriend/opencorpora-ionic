@@ -1,0 +1,18 @@
+<ion-view view-title="Доступные задания">
+  <ion-content>
+	  <ion-list ng-controller="TasksCtrl">
+	    <div ng-repeat="item in items"
+	              class="card">
+	      	<div class="item item-text-wrap item-pool">
+				<div class="pool-complexity pool-complexity-{{item.complexity}}"></div>
+		      		<p>{{item.title}}</p>
+		      	</div>
+		      	<div class="item item-divider" ng-switch="item.started">
+		            <button class="button button-small button-positive" ng-click="openModal()">Инструкция</button>
+	            	<button class="button button-small" ng-switch-when="false">Взять на разметку</button>
+	            	<button class="button button-small button-royal" ng-switch-when="true">Продолжить</button>
+		        </div>
+	    </div>
+  </ion-list>
+  </ion-content>
+</ion-view>
